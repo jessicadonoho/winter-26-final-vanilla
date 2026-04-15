@@ -8,3 +8,6 @@ if (typeof module !== 'undefined') {
   }
 }
 
+document.querySelector("#hello").addEventListener("click", (e)=>{
+  document.querySelector("#output").innerHTML="<p>World</p>"
+})

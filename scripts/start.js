@@ -11,3 +11,5 @@ console.log('****IF THE SERVER(s) LISTED HAVE PORT :10000, do not try to visit/o
 
 
 execSync(cmd, { stdio: 'inherit' })
+
+
